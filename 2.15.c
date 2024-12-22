@@ -1,0 +1,20 @@
+#include <stdio.h>   
+int main(){  
+    char a;  
+    scanf("%c",&a);  
+        if( a<=90&a>=65)  
+    {   printf("´óÐ´×ÖÄ¸\n");  
+    }  
+    else if( a<=122&a>=97)  
+    {  
+        printf("Ð¡Ð´×ÖÄ¸\n");   
+    }  
+     else if( a<=57&a>=48)  
+    {  
+        printf("Êý×Ö×Ö·û\n");   
+    }  
+    else{
+   		printf("ÆäËû×Ö·û\n"); 
+	} 
+    return 0;  
+}  
