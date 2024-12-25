@@ -17,4 +17,3 @@ int main()
     printf("%d元\n", cost(a));
     return 0;
 }
-c
