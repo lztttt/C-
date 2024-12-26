@@ -27,13 +27,13 @@ void insert(int a[], int num, int n)
             a[i] = n;
             break;
         }
-        else if (i==num-1)
-        {
-            a[num-1] = n;
-        }
-        
     }
-    for (i = 0; i < num + 1; i++)
+    if (i == num) 
+    {
+        a[num] = n;
+    }
+    num++;
+    for (i = 0; i < num; i++)
     {
         printf("%d,", a[i]);
     }
